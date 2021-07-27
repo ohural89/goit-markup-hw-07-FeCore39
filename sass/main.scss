@@ -1,1 +1,24 @@
-@import "./base";
+@import "./utils/utils";
+@import "./base/rootResets";
+@import "./base/positioning";
+
+@import "./elements/logotype";
+@import "./elements/buttons";
+@import "./elements/socialsIcons";
+
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/sectionTitles";
+@import "./sections/features";
+@import "./sections/whatWeDo";
+@import "./sections/ourTeam";
+@import "./sections/regularClients";
+@import "./sections/footer";
+@import "./sections/portfolio";
+
+@import "./custom/navActiveLine";
+@import "./custom/checkboxAgreement";
+@import "./custom/functions";
+
+@import "./sections/modalWindow";
+@import "./sections/modalInput";
