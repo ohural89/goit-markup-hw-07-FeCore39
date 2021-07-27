@@ -42,10 +42,10 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    &:hover .contacts-icons,
-    &:focus .contacts-icons{
-        fill: var(--spec-accent-color);
-    }
+.contact-item:hover .contacts-icons,
+.contact-item:focus .contacts-icons{
+    fill: var(--spec-accent-color);
 }
 /* END HEADER */

@@ -437,8 +437,8 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-icons:hover .contacts-icons,
-.contacts-icons:focus .contacts-icons {
+.contact-item:hover .contacts-icons,
+.contact-item:focus .contacts-icons {
   fill: var(--spec-accent-color);
 }
 
