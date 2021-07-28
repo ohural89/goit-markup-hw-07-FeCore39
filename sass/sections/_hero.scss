@@ -4,8 +4,9 @@
         linear-gradient(
             0deg,
             var(--hero-bg-overlay)
-            var(--hero-bg-overlay)),
-            url(../../imgs/desk-cap/cap.jpg);
+            var(--hero-bg-overlay)
+            ),
+            url(../imgs/desk-cap/cap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
