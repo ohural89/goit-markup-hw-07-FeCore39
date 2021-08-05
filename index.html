@@ -452,9 +452,10 @@
                         </label>
 
                         <div class="checkbox-container">
-                            <input type="checkbox" name="user-agreement" id="checkbox" class="m-window-input-checkbox visually-hidden" tabindex="0">
-                            <label for="checkbox" class="m-window-custom-checkbox m-window-terms-agreement" >
-                                <span class="agreement-position">Agree with subscription & accept the</span><a href="#" class="m-window-terms-agreement-link">Terms of the Agreement</a>
+                            <label id="span" class="user-agreement-label">
+                                <input type="checkbox" name="user-agreement" class="user-checkbox">
+                                <span class="custom-checkbox" tabindex="0"></span>
+                                <span for="span" class="m-window-agreement-text">Agree with subscription & accept the</span><span><a href="#" class="m-window-agreement-text agreement-link">Terms of the Agreement</a></span>
                             </label>
                         </div>
                         <button type="submit" class="btn m-window-send-btn">Send</button>
