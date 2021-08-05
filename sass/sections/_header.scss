@@ -44,8 +44,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-item:hover .contacts-icons,
-.contact-item:focus .contacts-icons{
+.header-contacts:hover .contacts-icons,
+.header-contacts:focus .contacts-icons{
     fill: var(--spec-accent-color);
 }
 /* END HEADER */
